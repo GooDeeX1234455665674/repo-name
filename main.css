@@ -1,0 +1,27 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card_item{
+    border-radius: 33px;
+    border: rgb(0, 0, 0) solid 5px;
+    margin: 10px;
+    padding:10px;
+    min-width: 500px;
+    min-height: 500px;
+    background: linear-gradient(45deg,rgb(14, 14, 14),rgb(74, 74, 74));
+}
+h1{
+    text-align: center;
+}
+.img{
+    max-width: 100%;
+    min-height: 100%;
+}
+.body{
+    background: #000000;
+    color: rgb(255, 255, 255);
+}
